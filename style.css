@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    /* background: linear-gradient(blue,green,orange); */
+    background-color: black;
+}
+
+header>h1 {
+    margin-left: 15px;
+    color: rgb(1, 95, 130);
+}
+
+header>.li>a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.bgimage>div>img {
+    height: 100vh;
+    width: 1263px;
+}
+
+.bgimage>div>p {
+    position: absolute;
+    margin-top: 10px;
+}
+
+.worldcup>h1 {
+    font-size: 42px;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(1, 88, 124);
+}
+
+.worldcup>p {
+    margin: 30px 80px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: grey;
+}
+
+.iplmatch>h1 {
+    font-size: 42px;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(1, 88, 124);
+}
+
+.iplmatch>p {
+    margin: 30px 80px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: grey;
+}
+
+
+.players>img {
+    margin-top: 30px;
+    margin-left: 110px;
+    border: 2px solid red;
+    border-radius: 0 20px 0 20px;
+    height: 250px;
+    width: 250px;
+}
+
+@media (min-width:0px) and (max-width:1000px) {
+    header {
+        height: 190px;
+    }
+
+    header>h1 {
+        color: red;
+        font-size: 55px;
+        letter-spacing: 5px;
+    }
+
+    .bgimage>div>img {
+        height: 1690px;
+        width: 979px;
+    }
+
+    .worldcup>h1 {
+        font-size: 57px;
+    }
+
+    .iplmatch>h1 {
+        font-size: 57px;
+    }
+
+    .worldcup>p {
+        text-align: justify;
+    }
+
+    .iplmatch>p {
+        text-align: justify;
+    }
+
+    .players>img {
+        width: 700px;
+        height: 900px;
+        border: 5px solid red;
+        border-radius: 0 40px 0 40px;
+        /* margin-left: 240px; */
+    }
+}
